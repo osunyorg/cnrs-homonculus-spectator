@@ -1,6 +1,13 @@
 ---
 title: Menu principal
 items:
+- title: À propos
+  target: "/a-propos/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/a-propos"
+  file: content/fr/pages/a-propos/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
@@ -43,4 +50,11 @@ items:
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
+- title: Dispositif
+  target: "/dispositif/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/dispositif"
+  file: content/fr/pages/dispositif/_index.html
 
