@@ -2,24 +2,17 @@
 title: Menu principal
 items:
 - title: À propos
-  target: "/a-propos/"
-  kind: page
+  target: ''
+  kind: blank
   new_tab: false
   children:
-  - title: Présentation
-    target: "/a-propos/presentation/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/a-propos/presentation"
-    file: content/fr/pages/a-propos/presentation/_index.html
   - title: Équipe & partenaires
-    target: "/a-propos/equipe-partenaires/"
+    target: "/equipe/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/a-propos/equipe-partenaires"
-    file: content/fr/pages/a-propos/equipe-partenaires/_index.html
+    path: "/pages/equipe"
+    file: content/fr/pages/equipe/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Dispositif

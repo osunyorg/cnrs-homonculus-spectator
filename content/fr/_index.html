@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2025-06-11T11:49:01+02:00
-lastmod: 2025-07-02T15:27:46+02:00
+lastmod: 2025-07-02T16:29:25+02:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-06-11T11:49:01+02:00
-    updated_at: 2025-07-02T15:27:46+02:00
+    updated_at: 2025-07-02T16:29:25+02:00
     published_at: 2025-06-11T11:49:01+02:00
 search:
   id: "031c436b-4453-46ec-916b-b5f0a919da7e"
@@ -30,7 +30,7 @@ search:
   summary: >-
     
   body: >-
-    <p>  <br>Homonculus Spectator est un projet de recherche-création qui vise à recueillir des informations sur l’expérience esthétique des publics en interagissant avec un dispositif basé sur les technologies dites de l’“IA” (intelligence artificielle). Co-construit par les membres partenaires du projet – professionnels du secteur muséal (Musée d’Orsay, Centre des Arts d’Enghien-les-Bains, Cube Garges-lès-Gonesse), chercheurs et artistes -, le projet inclut dès sa phase de conception une réflexion sur les actions de médiation culturelle à déployer pour accompagner l’expérience et une sensibilisation au traitement des données par IA. À la fois outil de recherche scientifique, expérience artistique et enquête sur les publics, le projet permettra de mettre en lumière l’éventuel écart entre la représentation offerte par l’IA et le rapport conscientisé par les publics aux œuvres d’art. Les livrables du projet (capsules vidéo, site web) s’appuieront sur une démarche de co-valorisation entre les parties prenantes, et seront mis au service d’un dialogue réflexif entre institutions culturelles, chercheurs et société.</p>  <p> Porteur·e·s </p>
+    <p>Porteur·e·s </p>  <p> Dernières actualités </p>
 
 breadcrumbs:
   - title: >-
@@ -52,7 +52,10 @@ translationKey: communication-website-page-14a17fcd-6acf-4314-8915-66f9b9b39792
 
 
 children:
-  - "pages/a-propos/_index.html"
+  - "pages/presentation/_index.html"
+  - "pages/equipe/_index.html"
+  - "pages/description/_index.html"
+  - "pages/visualisations/_index.html"
   - "pages/dispositif/_index.html"
   - "projects/_index.html"
   - "pages/carnet/_index.html"
@@ -75,12 +78,12 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 47
+  seconds: 2
   text: >-
-    1 minute
+    moins d'une minute
 contents:
   - kind: block
-    template: chapter
+    template: pages
     title: >-
       
     slug: >-
@@ -88,22 +91,30 @@ contents:
     ranks:
       base: 2
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Présentation
+        heading: 2
+        link: "/presentation/"
+      description: >-
+        <p>Homonculus Spectator est un projet de recherche-création qui vise à recueillir des informations sur l'expérience esthétique des publics en interagissant avec un dispositif basé sur les technologies dites de l'"IA" (intelligence artificielle).</p>
     data:
-      layout: no_background
-      text: >-
-        <p>Homonculus Spectator est un projet de recherche-création qui vise à recueillir des informations sur l’expérience esthétique des publics en interagissant avec un dispositif basé sur les technologies dites de l’“IA” (intelligence artificielle). Co-construit par les membres partenaires du projet – professionnels du secteur muséal (Musée d’Orsay, Centre des Arts d’Enghien-les-Bains, Cube Garges-lès-Gonesse), chercheurs et artistes -, le projet inclut dès sa phase de conception une réflexion sur les actions de médiation culturelle à déployer pour accompagner l’expérience et une sensibilisation au traitement des données par IA. À la fois outil de recherche scientifique, expérience artistique et enquête sur les publics, le projet permettra de mettre en lumière l’éventuel écart entre la représentation offerte par l’IA et le rapport conscientisé par les publics aux œuvres d’art. Les livrables du projet (capsules vidéo, site web) s’appuieront sur une démarche de co-valorisation entre les parties prenantes, et seront mis au service d’un dialogue réflexif entre institutions culturelles, chercheurs et société.</p>
+      page:
+        permalink: "/presentation/"
+        path: "/pages/presentation"
+        slug: "presentation"
+        file: "content/fr/pages/presentation/_index.html"
+      options:
+        image: false
+        categories: false
+        main_summary: true
+        summary: false
 
-      notes: >-
-        
+      layout: list
+      pages:
 
-
-      alt: >-
-        
-
-      credit: >-
-        
-
+      quantity: 0
 
 
   - kind: block
@@ -161,16 +172,23 @@ contents:
   - kind: block
     template: posts
     title: >-
-      
+      Dernières actualités
     slug: >-
-      
+      dernieres-actualites
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Dernières actualités
+        heading: 2
+        link: "/carnet/actualites/"
     data:
       mode: all
+      all: true
       layout: grid
       options:
         author: false
