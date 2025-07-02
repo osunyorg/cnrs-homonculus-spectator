@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2025-06-11T11:49:01+02:00
-lastmod: 2025-07-02T16:46:50+02:00
+lastmod: 2025-07-02T17:20:09+02:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-06-11T11:49:01+02:00
-    updated_at: 2025-07-02T16:46:50+02:00
+    updated_at: 2025-07-02T17:20:09+02:00
     published_at: 2025-06-11T11:49:01+02:00
 search:
   id: "031c436b-4453-46ec-916b-b5f0a919da7e"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Expérience esthétique, publics et intelligence artificielle.</p>
   body: >-
-    <p>Dernières actualités </p>
+    <p>Projet </p>  <p> Dispositif </p>  <p> Actualités récentes </p>  <p> Prochains événements </p>  <p> Dernières ressources </p>  <p> Contact  <br>Une proposition de collaboration, un projet de recherche, envie de tester le dispositif ou de nous rencontrer, contactez-nous.</p>  <p>Nous écrire par mail <br>mailto:berengere.voisin04@univ-paris8.fr</p>  <p>Voir toutes nos coordonnées <br>/contact/</p>
 
 breadcrumbs:
   - title: >-
@@ -53,9 +53,9 @@ translationKey: communication-website-page-14a17fcd-6acf-4314-8915-66f9b9b39792
 
 children:
   - "pages/presentation/_index.html"
-  - "pages/equipe-partenaires/_index.html"
+  - "pages/equipe/_index.html"
   - "pages/description/_index.html"
-  - "pages/visualisations-donnees/_index.html"
+  - "pages/visualisations/_index.html"
   - "projects/_index.html"
   - "posts/_index.html"
   - "events/_index.html"
@@ -79,23 +79,25 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 1
+  seconds: 12
   text: >-
     moins d'une minute
 contents:
   - kind: block
     template: pages
     title: >-
-      
+      Projet
     slug: >-
-      
+      projet
     ranks:
       base: 2
+      self: 2
+      children: 3
     top:
       active: true
       title: 
         value: >-
-          Présentation du projet
+          Projet
         heading: 2
         link: "/presentation/"
       description: >-
@@ -114,16 +116,28 @@ contents:
 
       layout: list
       pages:
+        - permalink: "/presentation/"
+          path: "/pages/presentation"
+          slug: "presentation"
+          file: "content/fr/pages/presentation/_index.html"
+          name: >-
+            Présentation
+        - permalink: "/equipe/"
+          path: "/pages/equipe"
+          slug: "equipe"
+          file: "content/fr/pages/equipe/_index.html"
+          name: >-
+            Équipe
 
-      quantity: 0
+      quantity: 2
 
 
   - kind: block
-    template: posts
+    template: pages
     title: >-
-      Dernières actualités
+      Dispositif
     slug: >-
-      dernieres-actualites
+      dispositif
     ranks:
       base: 2
       self: 2
@@ -132,7 +146,42 @@ contents:
       active: true
       title: 
         value: >-
-          Dernières actualités
+          Dispositif
+        heading: 2
+    data:
+      options:
+        image: true
+        categories: false
+        main_summary: false
+        summary: true
+
+      layout: large
+      pages:
+        - permalink: "/description/"
+          path: "/pages/description"
+          slug: "description"
+          file: "content/fr/pages/description/_index.html"
+          name: >-
+            Description
+
+      quantity: 1
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Actualités récentes
+    slug: >-
+      actualites-recentes
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Actualités récentes
         heading: 2
         link: "/actualites/"
     data:
@@ -142,7 +191,7 @@ contents:
       options:
         author: false
         categories: false
-        date: false
+        date: true
         image: true
         reading_time: false
         subtitle: true
@@ -157,6 +206,97 @@ contents:
             Lancement du site Web
 
       quantity: 1
+
+
+
+  - kind: block
+    template: projects
+    title: >-
+      Dernières ressources
+    slug: >-
+      dernieres-ressources
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Dernières ressources
+        heading: 2
+        link: "/ressources/"
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: false
+
+      projects:
+        - permalink: "/ressources/2025-fiche-1/"
+          path: "/projects/2025-fiche-1"
+          slug: "fiche-1"
+          file: "content/fr/projects/2025-fiche-1.html"
+          name: >-
+            Fiche #1
+        - permalink: "/ressources/2025-reference-1/"
+          path: "/projects/2025-reference-1"
+          slug: "reference-1"
+          file: "content/fr/projects/2025-reference-1.html"
+          name: >-
+            Référence #1
+
+      quantity: 2
+
+  - kind: block
+    template: call_to_action
+    title: >-
+      Contact
+    slug: >-
+      contact
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Contact
+        heading: 2
+      description: >-
+        <p>Une proposition de collaboration, un projet de recherche, envie de tester le dispositif ou de nous rencontrer, contactez-nous.</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>Une proposition de collaboration, un projet de recherche, envie de tester le dispositif ou de nous rencontrer, contactez-nous.</p>
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+      buttons:
+        - title: >-
+            Nous écrire par mail
+
+          url: >-
+            mailto:berengere.voisin04@univ-paris8.fr
+
+          target_blank: false
+        - title: >-
+            Voir toutes nos coordonnées
+
+          url: >-
+            /contact/
+
+          target_blank: false
 
 
 
