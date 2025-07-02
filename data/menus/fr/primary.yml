@@ -13,13 +13,53 @@ items:
     children: []
     path: "/pages/presentation"
     file: content/fr/pages/presentation/_index.html
-  - title: Équipe
-    target: "/equipe-partenaires/"
+  - title: Équipe & partenaires
+    target: "/equipe/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/equipe-partenaires"
-    file: content/fr/pages/equipe-partenaires/_index.html
+    path: "/pages/equipe"
+    file: content/fr/pages/equipe/_index.html
+- title: Dispositif
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: Description
+    target: "/description/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/description"
+    file: content/fr/pages/description/_index.html
+  - title: Visualisations & données
+    target: "/visualisations/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/visualisations"
+    file: content/fr/pages/visualisations/_index.html
+- title: Carnet
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: Actualités
+    target: "/actualites/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/posts"
+    file: content/fr/posts/_index.html
+  - title: Événements
+    target: "/agenda/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/events"
+    file: content/fr/events/_index.html
+  path: "/posts"
+  file: content/fr/posts/_index.html
 - title: Ressources
   target: "/portfolio/"
   kind: page
@@ -44,9 +84,4 @@ items:
   children: []
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
-- title: Dispositif
-  target: ''
-  kind: blank
-  new_tab: false
-  children: []
 
