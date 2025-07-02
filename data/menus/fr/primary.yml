@@ -8,48 +8,6 @@ items:
   children: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
-- title: Projets
-  target: "/projets/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
-- title: Agenda
-  target: "/agenda/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/events"
-  file: content/fr/events/_index.html
-- title: Expositions
-  target: "/expositions/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/exhibitions"
-  file: content/fr/exhibitions/_index.html
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
 - title: Dispositif
   target: "/dispositif/"
   kind: page
@@ -57,4 +15,32 @@ items:
   children: []
   path: "/pages/dispositif"
   file: content/fr/pages/dispositif/_index.html
+- title: Portfolio
+  target: "/portfolio/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
+- title: Carnet
+  target: "/carnet/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Actualités
+    target: "/carnet/actualites/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/posts"
+    file: content/fr/posts/_index.html
+  - title: Agenda
+    target: "/carnet/agenda/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/events"
+    file: content/fr/events/_index.html
+  path: "/pages/carnet"
+  file: content/fr/pages/carnet/_index.html
 
