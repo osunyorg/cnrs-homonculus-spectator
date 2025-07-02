@@ -61,7 +61,7 @@ items:
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Ressources
-  target: "/portfolio/"
+  target: "/ressources/"
   kind: page
   new_tab: false
   children:
