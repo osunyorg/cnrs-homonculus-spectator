@@ -6,36 +6,20 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: Équipe & partenaires
-    target: "/equipe/"
+  - title: Présentation
+    target: "/presentation/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/equipe"
-    file: content/fr/pages/equipe/_index.html
-  path: "/pages/a-propos"
-  file: content/fr/pages/a-propos/_index.html
-- title: Dispositif
-  target: "/dispositif/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Description
-    target: "/dispositif/description/"
+    path: "/pages/presentation"
+    file: content/fr/pages/presentation/_index.html
+  - title: Équipe
+    target: "/equipe-partenaires/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/dispositif/description"
-    file: content/fr/pages/dispositif/description/_index.html
-  - title: Visualisations
-    target: "/dispositif/visualisations/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/dispositif/visualisations"
-    file: content/fr/pages/dispositif/visualisations/_index.html
-  path: "/pages/dispositif"
-  file: content/fr/pages/dispositif/_index.html
+    path: "/pages/equipe-partenaires"
+    file: content/fr/pages/equipe-partenaires/_index.html
 - title: Ressources
   target: "/portfolio/"
   kind: page
@@ -53,27 +37,6 @@ items:
     children: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Carnet
-  target: "/carnet/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Actualités
-    target: "/carnet/actualites/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/posts"
-    file: content/fr/posts/_index.html
-  - title: Événements
-    target: "/carnet/agenda/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/events"
-    file: content/fr/events/_index.html
-  path: "/pages/carnet"
-  file: content/fr/pages/carnet/_index.html
 - title: Contact
   target: "/contact/"
   kind: page
@@ -81,4 +44,9 @@ items:
   children: []
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
+- title: Dispositif
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
 
