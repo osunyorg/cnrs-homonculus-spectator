@@ -13,13 +13,34 @@ items:
     children: []
     path: "/pages/a-propos/presentation"
     file: content/fr/pages/a-propos/presentation/_index.html
+  - title: Équipe & partenaires
+    target: "/a-propos/equipe-partenaires/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/a-propos/equipe-partenaires"
+    file: content/fr/pages/a-propos/equipe-partenaires/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Dispositif
   target: "/dispositif/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Description
+    target: "/dispositif/description/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/dispositif/description"
+    file: content/fr/pages/dispositif/description/_index.html
+  - title: Visualisations
+    target: "/dispositif/visualisations/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/dispositif/visualisations"
+    file: content/fr/pages/dispositif/visualisations/_index.html
   path: "/pages/dispositif"
   file: content/fr/pages/dispositif/_index.html
 - title: Ressources
@@ -60,4 +81,11 @@ items:
     file: content/fr/events/_index.html
   path: "/pages/carnet"
   file: content/fr/pages/carnet/_index.html
+- title: Contact
+  target: "/contact/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/contact"
+  file: content/fr/pages/contact/_index.html
 
