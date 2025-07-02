@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: À propos
+- title: Projet
   target: ''
   kind: blank
   new_tab: false
@@ -32,7 +32,7 @@ items:
     children: []
     path: "/pages/description"
     file: content/fr/pages/description/_index.html
-  - title: Visualisations & données
+  - title: Visualisations
     target: "/visualisations/"
     kind: page
     new_tab: false
