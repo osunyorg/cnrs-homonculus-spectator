@@ -5,7 +5,14 @@ items:
   target: "/a-propos/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Présentation
+    target: "/a-propos/presentation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/a-propos/presentation"
+    file: content/fr/pages/a-propos/presentation/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Dispositif
@@ -15,11 +22,21 @@ items:
   children: []
   path: "/pages/dispositif"
   file: content/fr/pages/dispositif/_index.html
-- title: Portfolio
+- title: Ressources
   target: "/portfolio/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Fiches
+    target: "/ressources/fiches/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Références
+    target: "/ressources/references/"
+    kind: url
+    new_tab: false
+    children: []
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Carnet
@@ -34,7 +51,7 @@ items:
     children: []
     path: "/posts"
     file: content/fr/posts/_index.html
-  - title: Agenda
+  - title: Événements
     target: "/carnet/agenda/"
     kind: page
     new_tab: false
