@@ -209,6 +209,49 @@ contents:
 
 
 
+  - kind: block
+    template: projects
+    title: >-
+      Dernières ressources
+    slug: >-
+      dernieres-ressources
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Dernières ressources
+        heading: 2
+        link: "/ressources/"
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: false
+
+      projects:
+        - permalink: "/ressources/2025-fiche-1/"
+          path: "/projects/2025-fiche-1"
+          slug: "fiche-1"
+          file: "content/fr/projects/2025-fiche-1.html"
+          name: >-
+            Fiche #1
+        - permalink: "/ressources/2025-reference-1/"
+          path: "/projects/2025-reference-1"
+          slug: "reference-1"
+          file: "content/fr/projects/2025-reference-1.html"
+          name: >-
+            Référence #1
+
+      quantity: 2
 
   - kind: block
     template: call_to_action
