@@ -2,86 +2,120 @@
 title: Menu principal
 items:
 - title: Projet
+  slug: projet
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Présentation
+    slug: presentation
     target: "/presentation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/presentation"
     file: content/fr/pages/presentation/_index.html
   - title: Équipe
+    slug: equipe
     target: "/equipe/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/equipe"
     file: content/fr/pages/equipe/_index.html
+  descendants_targets:
+  - "/equipe/"
+  - "/presentation/"
 - title: Dispositif
+  slug: dispositif
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Description
+    slug: description
     target: "/description/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/description"
     file: content/fr/pages/description/_index.html
   - title: Visualisations
+    slug: visualisations
     target: "/visualisations/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/visualisations"
     file: content/fr/pages/visualisations/_index.html
+  descendants_targets:
+  - "/description/"
+  - "/visualisations/"
 - title: Carnet
+  slug: carnet
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Actualités
+    slug: actualites
     target: "/actualites/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts"
     file: content/fr/posts/_index.html
   - title: Événements
+    slug: evenements
     target: "/agenda/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/events"
     file: content/fr/events/_index.html
+  descendants_targets:
+  - "/actualites/"
+  - "/agenda/"
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Ressources
+  slug: ressources
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Fiches
+    slug: fiches
     target: "/ressources/fiches/"
     kind: url
     new_tab: false
     children: []
+    descendants_targets: []
   - title: Références
+    slug: references
     target: "/ressources/references/"
     kind: url
     new_tab: false
     children: []
+    descendants_targets: []
+  descendants_targets:
+  - "/ressources/fiches/"
+  - "/ressources/references/"
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Contact
+  slug: contact
   target: "/contact/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/contact"
   file: content/fr/pages/contact/_index.html
 
