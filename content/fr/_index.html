@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2025-06-11T11:49:01+02:00
-lastmod: 2026-04-08T10:38:35+02:00
+lastmod: 2026-04-08T10:56:34+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-06-11T11:49:01+02:00
-    updated_at: 2026-04-08T10:38:35+02:00
+    updated_at: 2026-04-08T10:56:34+02:00
     published_at: 2025-06-11T11:49:01+02:00
 search:
   id: "031c436b-4453-46ec-916b-b5f0a919da7e"
@@ -55,25 +55,28 @@ translationKey: communication-website-page-14a17fcd-6acf-4314-8915-66f9b9b39792
 
 children:
   - "pages/presentation/_index.html"
-  - "pages/equipe/_index.html"
+  - "persons/_index.html"
+  - "organizations/_index.html"
   - "pages/description/_index.html"
   - "pages/galerie/_index.html"
-  - "projects/_index.html"
   - "posts/_index.html"
+  - "projects/_index.html"
   - "events/_index.html"
   - "exhibitions/_index.html"
   - "pages/contact/_index.html"
-  - "persons/_index.html"
-  - "organizations/_index.html"
 child_pages:
   - permalink: "/presentation/"
     path: "/pages/presentation"
     slug: "presentation"
     file: "content/fr/pages/presentation/_index.html"
-  - permalink: "/equipe/"
-    path: "/pages/equipe"
-    slug: "equipe"
-    file: "content/fr/pages/equipe/_index.html"
+  - permalink: "/equipe-1/"
+    path: "/persons"
+    slug: "equipe-1"
+    file: "content/fr/persons/_index.html"
+  - permalink: "/partenaires/"
+    path: "/organizations"
+    slug: "partenaires"
+    file: "content/fr/organizations/_index.html"
   - permalink: "/description/"
     path: "/pages/description"
     slug: "description"
@@ -82,14 +85,14 @@ child_pages:
     path: "/pages/galerie"
     slug: "galerie"
     file: "content/fr/pages/galerie/_index.html"
-  - permalink: "/ressources/"
-    path: "/projects"
-    slug: "ressources"
-    file: "content/fr/projects/_index.html"
   - permalink: "/actualites/"
     path: "/posts"
     slug: "actualites"
     file: "content/fr/posts/_index.html"
+  - permalink: "/ressources/"
+    path: "/projects"
+    slug: "ressources"
+    file: "content/fr/projects/_index.html"
   - permalink: "/agenda/"
     path: "/events"
     slug: "agenda"
@@ -102,14 +105,6 @@ child_pages:
     path: "/pages/contact"
     slug: "contact"
     file: "content/fr/pages/contact/_index.html"
-  - permalink: "/personnes/"
-    path: "/persons"
-    slug: "personnes"
-    file: "content/fr/persons/_index.html"
-  - permalink: "/partenaires/"
-    path: "/organizations"
-    slug: "partenaires"
-    file: "content/fr/organizations/_index.html"
 
 summary: >-
   <p>Expérience esthétique, publics et intelligence artificielle.</p>
@@ -172,12 +167,19 @@ contents:
         value: >-
           Dispositif
         heading: 2
-
+        link: "/description/"
+      description: >-
+        <p>Dispositif de captation et de restitution des attitudes corporelles et des mots prononcés lors d'une visite in situ par un spectateur devant une œuvre d'art.   </p>
     data:
+      page:
+        permalink: "/description/"
+        path: "/pages/description"
+        slug: "description"
+        file: "content/fr/pages/description/_index.html"
       options:
         image: true
         categories: false
-        main_summary: false
+        main_summary: true
         summary: true
 
       layout: list

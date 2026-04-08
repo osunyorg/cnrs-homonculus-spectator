@@ -18,13 +18,13 @@ items:
     file: content/fr/pages/presentation/_index.html
   - title: Équipe
     slug: equipe
-    target: "/equipe/"
+    target: "/equipe-1/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/equipe"
-    file: content/fr/pages/equipe/_index.html
+    path: "/persons"
+    file: content/fr/persons/_index.html
   - title: Partenaires
     slug: partenaires
     target: "/partenaires/"
@@ -35,7 +35,7 @@ items:
     path: "/organizations"
     file: content/fr/organizations/_index.html
   descendants_targets:
-  - "/equipe/"
+  - "/equipe-1/"
   - "/partenaires/"
   - "/presentation/"
 - title: Dispositif
@@ -62,8 +62,18 @@ items:
     descendants_targets: []
     path: "/pages/galerie"
     file: content/fr/pages/galerie/_index.html
+  - title: Enquêtes
+    slug: enquetes
+    target: "/enquetes/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/enquetes"
+    file: content/fr/pages/enquetes/_index.html
   descendants_targets:
   - "/description/"
+  - "/enquetes/"
   - "/galerie/"
 - title: Actualités
   slug: actualites
