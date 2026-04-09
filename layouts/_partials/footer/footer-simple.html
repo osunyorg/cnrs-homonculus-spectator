@@ -1,0 +1,24 @@
+<div class="container footer-primary">
+  <div class="footer-logo">
+    {{ partial "footer/logo.html" }}
+  </div>
+  <div class="footer-menu">
+    {{ partial "commons/menu.html" (dict
+      "kind" "footer"
+      "context" .
+    ) }}
+  </div>
+</div>
+
+<div class="container footer-secondary">
+  {{ if site.Params.search.active }}
+    <div class="footer-search">
+      {{ partial "commons/search/button.html" "footer" }}
+    </div>
+  {{ end }}
+
+  <div class="footer-legals">
+    {{ partial "footer/legals.html" . }}
+    {{ partial "footer/credit.html" . }}
+  </div>
+</div>

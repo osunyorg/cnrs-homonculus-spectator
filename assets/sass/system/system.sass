@@ -1,9 +1,57 @@
-.logo-text
-    font-family: $font-vg5000 !important
+header#document-header
+    .logo-text
+        font-family: $heading-font-family !important
+        font-size: $header-logo-height !important
+        @include media-breakpoint-up(desktop)
+            font-size: $header-logo-height-desktop !important
+    .dropdown-menu
+        border-top: $custom-border
+        border-bottom: $custom-border
+        @include media-breakpoint-up(desktop)
+            padding-bottom: var(--grid-gutter)
+            padding-top: var(--grid-gutter)
 
-header#document-header .dropdown-menu
-    border-top: $custom-border
-    border-bottom: $custom-border
+#document-footer
+    .footer-menu
+        font-family: $heading-font-family
+        .nav-search
+            // Todo : rename menu footer name
+            display: none !important
+        .nav-level-1
+            > li
+                > span
+                    @include meta
+                    opacity: 0.7
+                &.menu-class-no-title
+                    > span:first-child
+                        visibility: hidden
+        .nav-level-2
+            > li
+                @include h6
+    @include media-breakpoint-up(desktop)
+        .footer-logo
+            width: columns(3)
+        .footer-menu
+            width: columns(9)
+            .nav-level-1
+                display: flex
+                gap: var(--grid-gutter)
+                > li
+                    width: columns(3)
+                    margin-top: 0
+            .nav-level-2
+                margin-top: space(4)
+        .footer-secondary
+            .footer-search
+                width: columns(3)
+            .footer-legals
+                width: columns(9)
+                .nav-legal
+                    display: flex
+                    gap: $spacing-3
+                    > li
+                        margin-top: 0
+
 
 .breadcrumb-container
     border-bottom: $custom-border
@@ -24,3 +72,6 @@ header#document-header .dropdown-menu
             .hero-image
                 width: offset(6)
                 margin-right: var(--grid-gutter-negative)
+
+.document-content > .blocks .block:first-child
+    margin-top: var(--block-space-y)

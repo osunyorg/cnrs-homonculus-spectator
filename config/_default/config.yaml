@@ -7,6 +7,9 @@ params:
     position: after-hero
   search:
     active: true
+    positions:
+      - primary
+      - footer
   logo:
     header: ''
     footer: ''
