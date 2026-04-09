@@ -1,0 +1,19 @@
+
+.page__home
+    @include media-breakpoint-up(desktop)
+        .hero
+            --h1-size: min(8vw, #{pxToRem(96)})
+
+.block-pages--cards
+    --color-border: var(--color-background)
+    background-color: var(--color-accent)
+    .top
+        .block-title,
+        a
+            color: var(--color-background)
+    ul.pages
+        > li
+            .page
+                border: $custom-border
+                .media
+                    border-bottom: $custom-border
