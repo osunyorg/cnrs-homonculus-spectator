@@ -1,7 +1,32 @@
 .logo-text
     font-family: $font-vg5000 !important
 
-header#document-header .dropdown-menu,
-.breadcrumb-container
+header#document-header .dropdown-menu
     border-top: var(--border-width) solid black
     border-bottom: var(--border-width) solid black
+
+.breadcrumb-container
+    border-bottom: var(--border-width) solid black
+
+.hero
+    border-bottom: var(--border-width) solid black
+    padding-bottom: 0
+    margin-top: -1px
+    @include media-breakpoint-up(desktop)
+        .content
+            align-items: center
+            padding-top: 0
+            .hero-text
+                width: columns(6)
+                margin-top: 0
+                padding-top: var(--block-space-y)
+                padding-bottom: var(--block-space-y)
+            .hero-image
+                width: offset(6)
+                margin-right: var(--grid-gutter-negative)
+
+.page__home
+    @include media-breakpoint-up(desktop)
+        .hero
+            --h1-size: min(8vw, #{pxToRem(96)})
+
