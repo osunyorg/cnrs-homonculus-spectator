@@ -7,6 +7,10 @@ osuny:
   website:
     id: e3dd12c7-a9ef-40e0-85fa-504aa645899e
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "homonculus-spectator.fr"
 
 ## LANGUAGE
 defaultContentLanguage: fr
