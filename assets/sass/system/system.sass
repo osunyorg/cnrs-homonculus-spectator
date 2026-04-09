@@ -2,14 +2,14 @@
     font-family: $font-vg5000 !important
 
 header#document-header .dropdown-menu
-    border-top: var(--border-width) solid black
-    border-bottom: var(--border-width) solid black
+    border-top: $custom-border
+    border-bottom: $custom-border
 
 .breadcrumb-container
-    border-bottom: var(--border-width) solid black
+    border-bottom: $custom-border
 
 .hero
-    border-bottom: var(--border-width) solid black
+    border-bottom: $custom-border
     padding-bottom: 0
     margin-top: -1px
     @include media-breakpoint-up(desktop)
@@ -24,9 +24,3 @@ header#document-header .dropdown-menu
             .hero-image
                 width: offset(6)
                 margin-right: var(--grid-gutter-negative)
-
-.page__home
-    @include media-breakpoint-up(desktop)
-        .hero
-            --h1-size: min(8vw, #{pxToRem(96)})
-
