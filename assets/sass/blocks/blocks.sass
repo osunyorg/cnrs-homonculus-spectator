@@ -22,3 +22,20 @@
                 border: $custom-border
                 .media
                     border-bottom: $custom-border
+
+.block-testimonials
+    figcaption
+        > p
+            .meta
+                color: var(--color-text-alt)
+    &--carousel
+        .testimonial
+            figcaption
+                align-items: end
+                > p
+                    .meta
+                        margin-top: space(3)
+        @include in-page-with-sidebar
+            .testimonial
+                border-left: $custom-border
+                padding-left: var(--grid-gutter)

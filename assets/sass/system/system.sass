@@ -89,3 +89,15 @@ footer#document-footer
     ol
         li
             @include signature
+
+.slider-autoplayer button,
+.lazy-video-player button
+    border-radius: 0
+
+.lazy-video-player button
+    background: var(--color-background)
+    color: var(--color-text)
+    height: space(18)
+    width: space(18)
+    &::before
+        font-size: inherit
