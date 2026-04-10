@@ -42,7 +42,9 @@ header#document-header
             .nav-level-2
                 margin-top: space(4)
         .footer-secondary
+            align-items: baseline !important
             .footer-search
+                padding-top: 0
                 width: columns(3)
             .footer-legals
                 width: columns(9)
@@ -75,3 +77,8 @@ header#document-header
 
 .document-content > .blocks .block:first-child
     margin-top: var(--block-space-y)
+
+.toc
+    ol
+        li
+            @include signature
