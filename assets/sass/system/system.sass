@@ -11,7 +11,7 @@ header#document-header
             padding-bottom: var(--grid-gutter)
             padding-top: var(--grid-gutter)
 
-#document-footer
+footer#document-footer
     .footer-menu
         font-family: $heading-font-family
         .nav-search
@@ -31,6 +31,8 @@ header#document-header
     @include media-breakpoint-up(desktop)
         .footer-logo
             width: columns(3)
+            .logo-text
+                font-size: Min(3.6vw, var(--h2-size))
         .footer-menu
             width: columns(9)
             .nav-level-1
