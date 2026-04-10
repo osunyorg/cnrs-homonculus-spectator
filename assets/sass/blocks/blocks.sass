@@ -1,5 +1,8 @@
 .block.block-call_to_action
     &--no_background
         border-top: $custom-border
-        &:last-child
-            margin-bottom: 0
+        @include media-breakpoint-down(desktop)
+            padding-top: var(--block-space-y)
+        @include media-breakpoint-up(desktop)
+            &:last-child
+                margin-bottom: 0

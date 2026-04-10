@@ -4,10 +4,10 @@ header#document-header
         font-size: $header-logo-height !important
         @include media-breakpoint-up(desktop)
             font-size: $header-logo-height-desktop !important
-    .dropdown-menu
-        border-top: $custom-border
-        border-bottom: $custom-border
-        @include media-breakpoint-up(desktop)
+    @include media-breakpoint-up(desktop)
+        .dropdown-menu
+            border-top: $custom-border
+            border-bottom: $custom-border
             padding-bottom: var(--grid-gutter)
             padding-top: var(--grid-gutter)
 
@@ -54,15 +54,11 @@ header#document-header
                     > li
                         margin-top: 0
 
-
-.breadcrumb-container
-    border-bottom: $custom-border
-
 .hero
-    border-bottom: $custom-border
-    padding-bottom: 0
-    margin-top: -1px
     @include media-breakpoint-up(desktop)
+        border-bottom: $custom-border
+        padding-bottom: 0
+        margin-top: -1px
         .content
             align-items: center
             padding-top: 0
@@ -74,6 +70,12 @@ header#document-header
             .hero-image
                 width: offset(6)
                 margin-right: var(--grid-gutter-negative)
+
+.breadcrumb-container
+    border-bottom: $custom-border
+    @include media-breakpoint-down(desktop)
+        border-top: $custom-border
+
 
 .document-content > .blocks .block:first-child
     margin-top: var(--block-space-y)
