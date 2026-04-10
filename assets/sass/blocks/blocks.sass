@@ -1,4 +1,4 @@
-.block.block-call_to_action
+.block-call_to_action
     &--no_background
         border-top: $custom-border
         @include media-breakpoint-down(desktop)
@@ -6,3 +6,19 @@
         @include media-breakpoint-up(desktop)
             &:last-child
                 margin-bottom: 0
+
+.block-pages--cards
+    --color-border: var(--color-background)
+    background-color: var(--color-accent)
+    padding-top: var(--block-space-y)
+    padding-bottom: var(--block-space-y)
+    .top
+        .block-title,
+        a
+            color: var(--color-background)
+    ul.pages
+        > li
+            .page
+                border: $custom-border
+                .media
+                    border-bottom: $custom-border
