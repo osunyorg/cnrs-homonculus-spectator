@@ -21,7 +21,7 @@ footer#document-footer
             > li
                 > span
                     @include meta
-                    opacity: 0.7
+                    color: var(--color-text-alt)
                 &.menu-class-no-title
                     > span:first-child
                         visibility: hidden
@@ -55,6 +55,9 @@ footer#document-footer
                     gap: $spacing-3
                     > li
                         margin-top: 0
+            .footer-credit
+                margin-top: space(4)
+                color: var(--color-text-alt)
 
 .hero
     @include media-breakpoint-up(desktop)
