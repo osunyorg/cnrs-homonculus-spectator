@@ -1,4 +1,18 @@
 .block-call_to_action
+    body.full-width &
+        .top
+            .description
+                p
+                    font-size: var(--lead-sidebar-size)
+                    line-height: var(--lead-sidebar-line-height)
+    
+    @include in-page-without-sidebar
+        .call_to_action--without-image:not(.call_to_action--without-text) 
+            > div 
+                .actions
+                    a + a   
+                        margin-top: space(8)
+     
     &--no_background
         border-top: $custom-border
         @include media-breakpoint-down(desktop)
@@ -30,6 +44,13 @@
                     display: none
                 @include icon(arrow-right-line, after, true)
                 @include hover-translate-icon
+        
+        body.full-width &
+            .top
+                .description 
+                    p
+                        font-size: var(--lead-sidebar-size)
+                        line-height: var(--lead-sidebar-line-height)
 
 .block-testimonials
     figcaption

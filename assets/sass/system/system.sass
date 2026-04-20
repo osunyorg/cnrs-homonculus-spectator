@@ -4,6 +4,15 @@ header#document-header
         font-size: $header-logo-height !important
         @include media-breakpoint-up(desktop)
             font-size: $header-logo-height-desktop !important
+
+    .dropdown-menu
+        .nav-level-2
+            li > a
+                @include icon(arrow-right-line, after)
+                @include hover-translate-icon(after)
+                &::after
+                    vertical-align: text-bottom
+    
     @include media-breakpoint-up(desktop)
         .dropdown-menu
             border-top: $custom-border
