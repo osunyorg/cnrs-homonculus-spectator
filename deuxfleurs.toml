@@ -15,170 +15,170 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/carnet/actualites/index.html"
+from = "/carnet/actualites/"
 to = "/actualites/"
 
 [[redirects]]
-from = "/portfolio/index.html"
+from = "/portfolio/"
 to = "/ressources/"
 
 [[redirects]]
-from = "/fiches/index.html"
+from = "/fiches/"
 to = "/fiche/"
 
 [[redirects]]
-from = "/equipe/anat-meruk/index.html"
+from = "/equipe/anat-meruk/"
 to = "/equipe-1/anat-meruk/"
 
 [[redirects]]
-from = "/equipe/index.html"
+from = "/equipe/"
 to = "/equipe-1/"
 
 [[redirects]]
-from = "/organisations/iccare/index.html"
+from = "/organisations/iccare/"
 to = "/partenaires/iccare/"
 
 [[redirects]]
-from = "/projets/index.html"
+from = "/projets/"
 to = "/ressources/"
 
 [[redirects]]
-from = "/organisations/cda/index.html"
+from = "/organisations/cda/"
 to = "/partenaires/cda/"
 
 [[redirects]]
-from = "/organisations/artec/index.html"
+from = "/organisations/artec/"
 to = "/partenaires/artec/"
 
 [[redirects]]
-from = "/equipe/equipe-editoriale/index.html"
+from = "/equipe/equipe-editoriale/"
 to = "/equipe-1/equipe-editoriale/"
 
 [[redirects]]
-from = "/personnes/clement-coustenoble/index.html"
+from = "/personnes/clement-coustenoble/"
 to = "/equipe-1/clement-coustenoble/"
 
 [[redirects]]
-from = "/personnes/lou-vettier/index.html"
+from = "/personnes/lou-vettier/"
 to = "/equipe-1/lou-vettier/"
 
 [[redirects]]
-from = "/personnes/clara-broussot-2/index.html"
+from = "/personnes/clara-broussot-2/"
 to = "/equipe-1/clara-broussot-2/"
 
 [[redirects]]
-from = "/organisations/tmn-lab/index.html"
+from = "/organisations/tmn-lab/"
 to = "/partenaires/tmn-lab/"
 
 [[redirects]]
-from = "/portfolio/fiches/index.html"
+from = "/portfolio/fiches/"
 to = "/ressources/fiches/"
 
 [[redirects]]
-from = "/personnes/julie-peghini/index.html"
+from = "/personnes/julie-peghini/"
 to = "/equipe-1/julie-peghini/"
 
 [[redirects]]
-from = "/organisations/le-cube-garges/index.html"
+from = "/organisations/le-cube-garges/"
 to = "/partenaires/le-cube-garges/"
 
 [[redirects]]
-from = "/personnes/thu-trinh-bouvier/index.html"
+from = "/personnes/thu-trinh-bouvier/"
 to = "/equipe-1/thu-trinh-bouvier/"
 
 [[redirects]]
-from = "/organisations/musee-dorsay/index.html"
+from = "/organisations/musee-dorsay/"
 to = "/partenaires/musee-dorsay/"
 
 [[redirects]]
-from = "/personnes/anthony-ferretti/index.html"
+from = "/personnes/anthony-ferretti/"
 to = "/equipe-1/anthony-ferretti/"
 
 [[redirects]]
-from = "/equipe/sebastien-appiotti/index.html"
+from = "/equipe/sebastien-appiotti/"
 to = "/equipe-1/sebastien-appiotti/"
 
 [[redirects]]
-from = "/carnet/agenda/index.html"
+from = "/carnet/agenda/"
 to = "/agenda/"
 
 [[redirects]]
-from = "/personnes/albertine-meunier/index.html"
+from = "/personnes/albertine-meunier/"
 to = "/equipe-1/albertine-meunier/"
 
 [[redirects]]
-from = "/equipe/berengere-voisin/index.html"
+from = "/equipe/berengere-voisin/"
 to = "/equipe-1/berengere-voisin/"
 
 [[redirects]]
-from = "/organisations/gripic/index.html"
+from = "/organisations/gripic/"
 to = "/partenaires/gripic/"
 
 [[redirects]]
-from = "/personnes/agnes-abastado/index.html"
+from = "/personnes/agnes-abastado/"
 to = "/equipe-1/agnes-abastado/"
 
 [[redirects]]
-from = "/personnes/julien-levesque/index.html"
+from = "/personnes/julien-levesque/"
 to = "/equipe-1/julien-levesque/"
 
 [[redirects]]
-from = "/dispositif/description/index.html"
+from = "/dispositif/description/"
 to = "/description/"
 
 [[redirects]]
-from = "/personnes/anastasiia-baryshnikova/index.html"
+from = "/personnes/anastasiia-baryshnikova/"
 to = "/equipe-1/anastasiia-baryshnikova/"
 
 [[redirects]]
-from = "/visualisations-donnees/index.html"
+from = "/visualisations-donnees/"
 to = "/galerie/"
 
 [[redirects]]
-from = "/organisations/paris-8/index.html"
+from = "/organisations/paris-8/"
 to = "/partenaires/paris-8/"
 
 [[redirects]]
-from = "/personnes/sebastien-appiotti/index.html"
+from = "/personnes/sebastien-appiotti/"
 to = "/equipe-1/sebastien-appiotti/"
 
 [[redirects]]
-from = "/personnes/sylvie-tissot/index.html"
+from = "/personnes/sylvie-tissot/"
 to = "/equipe-1/sylvie-tissot/"
 
 [[redirects]]
-from = "/portfolio/references/index.html"
+from = "/portfolio/references/"
 to = "/ressources/references/"
 
 [[redirects]]
-from = "/dispositif/visualisations/index.html"
+from = "/dispositif/visualisations/"
 to = "/galerie/"
 
 [[redirects]]
-from = "/personnes/berengere-voisin/index.html"
+from = "/personnes/berengere-voisin/"
 to = "/equipe-1/berengere-voisin/"
 
 [[redirects]]
-from = "/organisations/index.html"
+from = "/organisations/"
 to = "/partenaires/"
 
 [[redirects]]
-from = "/a-propos/index.html"
+from = "/a-propos/"
 to = "/presentation/"
 
 [[redirects]]
-from = "/organisations/datadada/index.html"
+from = "/organisations/datadada/"
 to = "/partenaires/datadada/"
 
 [[redirects]]
-from = "/personnes/anat-meruk/index.html"
+from = "/personnes/anat-meruk/"
 to = "/equipe-1/anat-meruk/"
 
 [[redirects]]
-from = "/personnes/camille-dauhut/index.html"
+from = "/personnes/camille-dauhut/"
 to = "/equipe-1/camille-dauhut/"
 
 [[redirects]]
-from = "/carnet/expositions/index.html"
+from = "/carnet/expositions/"
 to = "/expositions/"
 
